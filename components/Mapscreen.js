@@ -62,7 +62,6 @@ export default function Mapscreen({}) {
         <TextInput 
           style={styles.input} 
           placeholder='  Input an Address'
-          keyboardType={'decimal-pad'}
           value={address}
           onChangeText={ text => setAddress(text) }
         />
